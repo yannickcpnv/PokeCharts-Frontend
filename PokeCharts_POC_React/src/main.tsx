@@ -8,6 +8,12 @@ import Detail from './pages/Detail';
 import Compare from './pages/Compare';
 import NoPage from './pages/NoPage';
 
+// PrimeReact css Importations
+import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
+import "primereact/resources/primereact.min.css";                  //core css
+import "primeicons/primeicons.css";                                //icons
+
+
 export default function App() {
     return (
         <BrowserRouter>
